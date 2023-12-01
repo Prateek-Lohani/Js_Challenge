@@ -23,7 +23,6 @@ start.addEventListener('click',function(){
 
 pause.addEventListener('click',function(){
     clearInterval(interval);
-    console.log(count);
 })
 
 reset.addEventListener('click',function(){
