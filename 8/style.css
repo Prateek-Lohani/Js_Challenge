@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height:100%;
+}
+
+.download{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:15vw;
+    border-radius: 1vw;
+    height:0.5vw;
+    background-color: rgb(206, 202, 202);
+}
+
+h3{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: normal;
+    margin-top: 0.5vw;
+    opacity:0;
+}
+
+.progress{
+    border-radius: 1vw;
+    height:100%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    background-color: rgb(20, 225, 20)
+}
