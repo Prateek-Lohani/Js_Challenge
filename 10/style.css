@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height:300vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.progress{
+    width:100%;
+    height:10px;
+    position: fixed;
+    background-color: #f1f1f1;
+}
+
+.progress-bar{
+    height: 100%;
+    width:1%;
+    background-color: #4caf50;
+}
